@@ -8,7 +8,7 @@ Open `index.html` locally, or publish this repository with GitHub Pages. The fir
 
 ## GitHub Pages
 
-Publish from the `main` branch and `/ (root)` in Settings → Pages. `.nojekyll` keeps this plain HTML, CSS and JavaScript website buildless. All asset URLs are relative, so project URLs work without a custom domain.
+Publish from the `main` branch and `/ (root)` in Settings → Pages. `.nojekyll` keeps this plain HTML, CSS and JavaScript website buildless. Site assets use relative URLs, so project URLs work without a custom domain. Large original PDF downloads use the public GitHub Release links described below.
 
 ## Content
 
@@ -16,7 +16,8 @@ Publish from the `main` branch and `/ (root)` in Settings → Pages. `.nojekyll`
 - `content.en.js`: English content with matching IDs and media paths.
 - `i18n.js`: language selection and persistence.
 - `gallery-refinements.css`: aligned portfolio covers and equal-sized gameplay stills.
-- `assets/`: artwork, the four original portfolio PDFs, practice PDFs and the DATA FURNACE walkthrough video.
+- `assets/`: artwork, portfolio PDFs 1 and 2, practice PDFs and the DATA FURNACE walkthrough video.
+- Original PDFs 3 and 4 are hosted in the public `portfolio-media` GitHub Release. The offline ZIP includes all four originals; local file browsing uses the local copies.
 
 The site contains About, Drawing, 3D Studies, Portfolio and Collaboration. CYPHER screenshots are static images; the demonstration is linked separately. The DATA FURNACE walkthrough is an actual video with playback controls.
 
