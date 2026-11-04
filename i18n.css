@@ -10,6 +10,6 @@ html[lang=en] .profile-hero .hero-copy h1{font-size:clamp(46px,4.4vw,70px);lette
 html[lang=en] .profile-english{font-size:35px;letter-spacing:.04em}
 html[lang=en] .reading-navigation .reading-next{white-space:normal}
 html[lang=en] .cypher-facts p,html[lang=en] .card-tag{overflow-wrap:anywhere}
-@media(max-width:1450px){.site-header{grid-template-columns:1fr auto}.site-header .primary-navigation{grid-column:1/-1;grid-row:2;justify-content:space-between}.language-switch{grid-column:2;grid-row:1}.site-header .primary-navigation a{font-size:22px}}
+@media(max-width:1200px){.site-header{grid-template-columns:1fr auto}.site-header .primary-navigation{grid-column:1/-1;grid-row:2;justify-content:space-between}.language-switch{grid-column:2;grid-row:1}.site-header .primary-navigation a{font-size:22px}}
 @media(max-width:700px){.site-header{padding:18px 5%;gap:14px}.brand{font-size:18px;gap:8px}.brand small{font-size:10px}.brand-symbol{font-size:36px}.language-switch button{font-size:18px;padding-inline:9px}.site-header .primary-navigation{justify-content:start;gap:8px}.site-header .primary-navigation a{font-size:19px;min-height:52px;padding:8px}.site-header .primary-navigation a>span{font-size:18px}html[lang=en] .profile-hero .hero-copy h1{font-size:49px}html[lang=en] .profile-english{font-size:32px}.home-entry-actions a{font-size:20px}}
 @media(max-width:380px){.site-header{grid-template-columns:1fr}.language-switch{grid-column:1;grid-row:2;justify-self:start}.site-header .primary-navigation{grid-row:3}.brand small{font-size:11px}}

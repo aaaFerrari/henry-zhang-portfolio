@@ -10,7 +10,7 @@ function updateStaticLanguage(){
  document.querySelector('.brand').setAttribute('aria-label',t('张惟楚 Henry Zhang，返回首页','Henry Zhang, back to home'));
  document.getElementById('brand-name').innerHTML=t('张惟楚<small>HENRY ZHANG / PORTFOLIO</small>','Henry Zhang<small>张惟楚 / PORTFOLIO</small>');
  const nav=document.querySelector('.primary-navigation');nav.setAttribute('aria-label',t('主要导航','Main navigation'));
- const names={home:t('自我介绍','About'),drawings:t('绘画','Drawing'),models:t('建模练习','3D Studies'),portfolio:t('作品集','Portfolio'),collaboration:t('合作','Collaboration')};
+ const names={drawings:t('绘画','Drawing'),models:t('建模练习','3D Studies'),portfolio:t('作品集','Portfolio'),collaboration:t('合作','Collaboration')};
  nav.querySelectorAll('[data-nav]').forEach((link,index)=>{link.innerHTML='<span>'+String(index+1).padStart(2,'0')+'</span>'+names[link.dataset.nav];});
  document.querySelector('.language-switch').setAttribute('aria-label',t('网站语言','Website language'));
  document.querySelectorAll('[data-language]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.language===currentLanguage)));

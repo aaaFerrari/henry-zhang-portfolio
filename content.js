@@ -50,9 +50,9 @@ const CONTENT = {
       "featured": false,
       "images": [
         {
-          "src": "assets/portfolio/20261028/project1/section-01.webp",
-          "width": 2560,
-          "height": 1280,
+          "src": "assets/portfolio/20261028/project1/cover-trimmed.webp",
+          "width": 2534,
+          "height": 1267,
           "caption": "项目封面",
           "alt": "EMBER ERA · 项目封面"
         },
@@ -280,9 +280,9 @@ const CONTENT = {
       "featured": false,
       "images": [
         {
-          "src": "assets/portfolio/20261028/project3/section-01.webp",
+          "src": "assets/portfolio/20261028/project3/cover-trimmed.webp",
           "width": 2560,
-          "height": 1510,
+          "height": 1442,
           "caption": "项目封面",
           "alt": "DATA FURNACE · 项目封面"
         },
@@ -617,8 +617,8 @@ const CONTENT = {
       "subtitle": "硬表面道具",
       "summary": "以方形炉体与金属表面细节完成小型道具练习，展示模型结构、材质与最终渲染。",
       "description": "以方形炉体与金属表面细节完成小型道具练习，展示模型结构、材质与最终渲染。",
-      "cover": "assets/models/furnace-03.webp",
-      "thumbnail": "assets/models/furnace-03-thumb.webp",
+      "cover": "assets/models/furnace-render-20261104.jpg",
+      "thumbnail": "assets/models/furnace-render-20261104.jpg",
       "category": "object",
       "tags": [
         "三维建模",
@@ -627,9 +627,9 @@ const CONTENT = {
       ],
       "images": [
         {
-          "src": "assets/models/furnace-03.webp",
-          "width": 1848,
-          "height": 924,
+          "src": "assets/models/furnace-render-20261104.jpg",
+          "width": 800,
+          "height": 400,
           "caption": "火炉最终渲染",
           "alt": "火炉最终渲染"
         },

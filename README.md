@@ -19,7 +19,7 @@ Publish from the `main` branch and `/ (root)` in Settings → Pages. `.nojekyll`
 - `assets/`: artwork, portfolio PDFs 1 and 2, practice PDFs and the DATA FURNACE walkthrough video.
 - Original PDFs 3 and 4 are hosted in the public `portfolio-media` GitHub Release. The offline ZIP includes all four originals; local file browsing uses the local copies.
 
-The site contains About, Drawing, 3D Studies, Portfolio and Collaboration. CYPHER screenshots are static images; the demonstration is linked separately. The DATA FURNACE walkthrough is an actual video with playback controls.
+The homepage is the Introduction. The four numbered sections are 01 Drawing, 02 3D Studies, 03 Portfolio and 04 Collaboration. Drawing is grouped by medium; each sketching and colour group follows its own chronology. CYPHER screenshots are static images; the demonstration is linked separately. The DATA FURNACE walkthrough opens its project page with native video controls and a prominent Play video button. Portfolio detail navigation advances to the next project.
 
 ## Editing
 

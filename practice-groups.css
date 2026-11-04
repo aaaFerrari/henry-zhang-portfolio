@@ -1,0 +1,35 @@
+/* Keep each drawing medium together, with readable chronological subheadings. */
+.drawing-group-nav{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 34px}
+.drawing-group-nav button{display:inline-flex;align-items:center;justify-content:center;min-height:60px;padding:13px 23px;border:1px solid var(--accent);background:#202426;color:var(--ink);font-size:21px;line-height:1.5}
+.drawing-group-nav button:hover{background:#343a3c}
+.drawing-type{padding:40px 0 54px;border-top:1px solid var(--line);scroll-margin-top:28px}
+.drawing-type-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap;margin-bottom:28px}
+.drawing-type-heading h2{font-size:clamp(34px,3vw,42px);font-weight:400;line-height:1.35;letter-spacing:-.015em}
+.drawing-type-heading>p{font-size:21px;color:var(--muted);line-height:1.6}
+.drawing-period+.drawing-period{margin-top:44px}
+.drawing-period-heading{display:flex;align-items:baseline;flex-wrap:wrap;gap:12px 25px;padding:0 0 20px}
+.drawing-period-heading h3{font-size:28px;line-height:1.5;font-weight:400;color:var(--accent)}
+.drawing-period-heading p,.drawing-ink-period{font-size:21px;line-height:1.6;color:var(--muted)}
+.drawing-ink-period{margin:-8px 0 24px}
+.drawing-type .unified-drawing-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:38px 28px}
+.drawing-type .drawing-frame{aspect-ratio:1/1.08;padding:14px}
+.drawing-type .drawing-meta h3{font-size:22px;font-weight:400;line-height:1.6}
+.drawing-type .drawing-card>p{font-size:18px;line-height:1.8}
+.drawing-unplaced{margin-top:34px}
+@media(max-width:1000px){.drawing-type .unified-drawing-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:800px){
+ .drawing-group-nav{gap:12px;margin-bottom:28px}
+ .drawing-group-nav button{font-size:20px;padding:12px 19px;min-height:60px}
+ .drawing-type{padding:32px 0 42px}
+ .drawing-type-heading{gap:12px;margin-bottom:24px}
+ .drawing-type-heading h2{font-size:34px}
+ .drawing-type-heading>p{font-size:20px}
+ .drawing-period+.drawing-period{margin-top:38px}
+ .drawing-period-heading{gap:8px 20px;padding-bottom:18px}
+ .drawing-period-heading h3{font-size:27px}
+ .drawing-period-heading p,.drawing-ink-period{font-size:20px}
+ .drawing-type .unified-drawing-grid{grid-template-columns:1fr;gap:34px}
+ .drawing-type .drawing-frame{padding:14px}
+ .drawing-type .drawing-meta h3{font-size:22px}
+ .drawing-type .drawing-card>p{font-size:18px}
+}

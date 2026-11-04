@@ -50,9 +50,9 @@ const CONTENT_EN = {
       "featured": false,
       "images": [
         {
-          "src": "assets/portfolio/20261028/project1/section-01.webp",
-          "width": 2560,
-          "height": 1280,
+          "src": "assets/portfolio/20261028/project1/cover-trimmed.webp",
+          "width": 2534,
+          "height": 1267,
           "caption": "Project Cover",
           "alt": "EMBER ERA · Project Cover"
         },
@@ -280,9 +280,9 @@ const CONTENT_EN = {
       "featured": false,
       "images": [
         {
-          "src": "assets/portfolio/20261028/project3/section-01.webp",
+          "src": "assets/portfolio/20261028/project3/cover-trimmed.webp",
           "width": 2560,
-          "height": 1510,
+          "height": 1442,
           "caption": "Project Cover",
           "alt": "DATA FURNACE · Project Cover"
         },
@@ -617,8 +617,8 @@ const CONTENT_EN = {
       "subtitle": "Hard-surface Prop",
       "summary": "A small prop study using a box-shaped stove body and metal surface details, showing structure, materials, and the final render.",
       "description": "A small prop study using a box-shaped stove body and metal surface details, showing structure, materials, and the final render.",
-      "cover": "assets/models/furnace-03.webp",
-      "thumbnail": "assets/models/furnace-03-thumb.webp",
+      "cover": "assets/models/furnace-render-20261104.jpg",
+      "thumbnail": "assets/models/furnace-render-20261104.jpg",
       "category": "object",
       "tags": [
         "3D Modeling",
@@ -627,9 +627,9 @@ const CONTENT_EN = {
       ],
       "images": [
         {
-          "src": "assets/models/furnace-03.webp",
-          "width": 1848,
-          "height": 924,
+          "src": "assets/models/furnace-render-20261104.jpg",
+          "width": 800,
+          "height": 400,
           "caption": "Stove · Final Render",
           "alt": "Stove · Final Render"
         },
