@@ -61,49 +61,91 @@ const CONTENT_EN = {
           "width": 2560,
           "height": 1267,
           "caption": "Game Introduction",
-          "alt": "EMBER ERA · Game Introduction"
+          "alt": "EMBER ERA · Game Introduction",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-03.webp",
           "width": 2560,
           "height": 1268,
           "caption": "Maps & Icons",
-          "alt": "EMBER ERA · Maps & Icons"
+          "alt": "EMBER ERA · Maps & Icons",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-04.webp",
           "width": 2560,
           "height": 1267,
           "caption": "Player Areas & Character Cards",
-          "alt": "EMBER ERA · Player Areas & Character Cards"
+          "alt": "EMBER ERA · Player Areas & Character Cards",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-05.webp",
           "width": 2560,
           "height": 1268,
           "caption": "System & Card Drafts",
-          "alt": "EMBER ERA · System & Card Drafts"
+          "alt": "EMBER ERA · System & Card Drafts",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-06.webp",
           "width": 2560,
           "height": 1268,
           "caption": "Event Cards",
-          "alt": "EMBER ERA · Event Cards"
+          "alt": "EMBER ERA · Event Cards",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-07.webp",
           "width": 2560,
           "height": 1268,
           "caption": "Fate Cards",
-          "alt": "EMBER ERA · Fate Cards"
+          "alt": "EMBER ERA · Fate Cards",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-08.webp",
           "width": 2560,
           "height": 1279,
           "caption": "Art Development & Sketches",
-          "alt": "EMBER ERA · Art Development & Sketches"
+          "alt": "EMBER ERA · Art Development & Sketches",
+          "displayCrop": [
+            0,
+            13,
+            13,
+            13
+          ]
         }
       ],
       "pdf": {
@@ -171,28 +213,52 @@ const CONTENT_EN = {
           "width": 2560,
           "height": 1438,
           "caption": "Project Cover",
-          "alt": "Hemlock and Fire · Project Cover"
+          "alt": "Hemlock and Fire · Project Cover",
+          "displayCrop": [
+            0,
+            2,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-02.webp",
           "width": 2560,
           "height": 1438,
           "caption": "Sources of Inspiration",
-          "alt": "Hemlock and Fire · Sources of Inspiration"
+          "alt": "Hemlock and Fire · Sources of Inspiration",
+          "displayCrop": [
+            0,
+            2,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-03.webp",
           "width": 2560,
           "height": 1438,
           "caption": "Quest Flow M01–03",
-          "alt": "Hemlock and Fire · Quest Flow M01–03"
+          "alt": "Hemlock and Fire · Quest Flow M01–03",
+          "displayCrop": [
+            0,
+            1,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-04.webp",
           "width": 2560,
           "height": 1438,
           "caption": "Quest Flow M04–06",
-          "alt": "Hemlock and Fire · Quest Flow M04–06"
+          "alt": "Hemlock and Fire · Quest Flow M04–06",
+          "displayCrop": [
+            0,
+            1,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-05.webp",
@@ -206,21 +272,39 @@ const CONTENT_EN = {
           "width": 2560,
           "height": 1438,
           "caption": "Environment Assets",
-          "alt": "Hemlock and Fire · Environment Assets"
+          "alt": "Hemlock and Fire · Environment Assets",
+          "displayCrop": [
+            0,
+            0,
+            0,
+            1
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-07.webp",
           "width": 2560,
           "height": 1438,
           "caption": "Combat Effects",
-          "alt": "Hemlock and Fire · Combat Effects"
+          "alt": "Hemlock and Fire · Combat Effects",
+          "displayCrop": [
+            0,
+            0,
+            0,
+            2
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-08.webp",
           "width": 2560,
           "height": 1407,
           "caption": "Development & Iteration",
-          "alt": "Hemlock and Fire · Development & Iteration"
+          "alt": "Hemlock and Fire · Development & Iteration",
+          "displayCrop": [
+            0,
+            0,
+            0,
+            2
+          ]
         }
       ],
       "externalUrl": "https://kilimill.itch.io/hemlock-and-fire",
@@ -284,21 +368,39 @@ const CONTENT_EN = {
           "width": 2560,
           "height": 1442,
           "caption": "Project Cover",
-          "alt": "DATA FURNACE · Project Cover"
+          "alt": "DATA FURNACE · Project Cover",
+          "displayCrop": [
+            1,
+            0,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project3/section-02.webp",
           "width": 2560,
           "height": 1476,
           "caption": "Environment Overview",
-          "alt": "DATA FURNACE · Environment Overview"
+          "alt": "DATA FURNACE · Environment Overview",
+          "displayCrop": [
+            62,
+            0,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project3/section-03.webp",
           "width": 2560,
           "height": 1476,
           "caption": "Level Iteration",
-          "alt": "DATA FURNACE · Level Iteration"
+          "alt": "DATA FURNACE · Level Iteration",
+          "displayCrop": [
+            0,
+            0,
+            20,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project3/section-04.webp",
@@ -394,7 +496,13 @@ const CONTENT_EN = {
           "width": 2560,
           "height": 1440,
           "caption": "Federation Major General",
-          "alt": "DYING SUNS · Federation Major General"
+          "alt": "DYING SUNS · Federation Major General",
+          "displayCrop": [
+            0,
+            2,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project4/section-03.webp",

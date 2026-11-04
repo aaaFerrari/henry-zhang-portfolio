@@ -9,3 +9,9 @@
 .detail-header.has-project-film{grid-template-columns:1fr;gap:0;padding:26px 0 28px}.has-project-film .detail-summary{display:none}.project-video-lead>.gallery-heading{padding:0;align-items:center}.project-video-lead>.gallery-heading h2{white-space:normal}@media(max-width:650px){.detail-header.has-project-film{padding:22px 0}.project-video-lead>.gallery-heading{align-items:start;gap:12px}.project-video-lead>.gallery-heading>p{display:none}}
 
 .project-video-lead .gallery-heading .video-play-button{flex-shrink:0;min-width:170px;justify-content:center;gap:14px;font-size:20px}.project-video-lead .gallery-heading{flex-wrap:wrap}.cypher-demo .gallery-heading{padding:0;margin:0}.cypher-demo> .button-primary{font-size:20px;min-height:64px}
+
+/* Keep the playable project link directly beneath its subtitle. */
+.detail-title-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.detail-title-actions .project-game-link{font-size:22px;min-height:60px;max-width:100%;padding:14px 22px;gap:16px;line-height:1.5;white-space:normal;overflow-wrap:anywhere;align-items:center;justify-content:space-between}.detail-title-actions .project-game-link>span{flex-shrink:0}@media(max-width:650px){.detail-title-actions .project-game-link{width:100%;font-size:20px;min-height:56px}}
+
+/* Remove only measured outer page margins during display. */
+.portfolio-artwork-window{position:relative;display:block;width:100%;overflow:hidden;background:#101214}.image-button .portfolio-artwork-image{position:absolute;display:block;max-width:none;height:auto;margin:0}

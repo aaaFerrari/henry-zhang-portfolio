@@ -61,49 +61,91 @@ const CONTENT = {
           "width": 2560,
           "height": 1267,
           "caption": "游戏介绍",
-          "alt": "EMBER ERA · 游戏介绍"
+          "alt": "EMBER ERA · 游戏介绍",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-03.webp",
           "width": 2560,
           "height": 1268,
           "caption": "地图与图标",
-          "alt": "EMBER ERA · 地图与图标"
+          "alt": "EMBER ERA · 地图与图标",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-04.webp",
           "width": 2560,
           "height": 1267,
           "caption": "私人区域与角色卡",
-          "alt": "EMBER ERA · 私人区域与角色卡"
+          "alt": "EMBER ERA · 私人区域与角色卡",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-05.webp",
           "width": 2560,
           "height": 1268,
           "caption": "系统与卡牌草稿",
-          "alt": "EMBER ERA · 系统与卡牌草稿"
+          "alt": "EMBER ERA · 系统与卡牌草稿",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-06.webp",
           "width": 2560,
           "height": 1268,
           "caption": "事件卡",
-          "alt": "EMBER ERA · 事件卡"
+          "alt": "EMBER ERA · 事件卡",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-07.webp",
           "width": 2560,
           "height": 1268,
           "caption": "命运卡",
-          "alt": "EMBER ERA · 命运卡"
+          "alt": "EMBER ERA · 命运卡",
+          "displayCrop": [
+            0,
+            13,
+            0,
+            13
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project1/section-08.webp",
           "width": 2560,
           "height": 1279,
           "caption": "美术过程与草图",
-          "alt": "EMBER ERA · 美术过程与草图"
+          "alt": "EMBER ERA · 美术过程与草图",
+          "displayCrop": [
+            0,
+            13,
+            13,
+            13
+          ]
         }
       ],
       "pdf": {
@@ -171,28 +213,52 @@ const CONTENT = {
           "width": 2560,
           "height": 1438,
           "caption": "项目封面",
-          "alt": "Hemlock and Fire · 项目封面"
+          "alt": "Hemlock and Fire · 项目封面",
+          "displayCrop": [
+            0,
+            2,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-02.webp",
           "width": 2560,
           "height": 1438,
           "caption": "灵感来源",
-          "alt": "Hemlock and Fire · 灵感来源"
+          "alt": "Hemlock and Fire · 灵感来源",
+          "displayCrop": [
+            0,
+            2,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-03.webp",
           "width": 2560,
           "height": 1438,
           "caption": "任务流程 M01–03",
-          "alt": "Hemlock and Fire · 任务流程 M01–03"
+          "alt": "Hemlock and Fire · 任务流程 M01–03",
+          "displayCrop": [
+            0,
+            1,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-04.webp",
           "width": 2560,
           "height": 1438,
           "caption": "任务流程 M04–06",
-          "alt": "Hemlock and Fire · 任务流程 M04–06"
+          "alt": "Hemlock and Fire · 任务流程 M04–06",
+          "displayCrop": [
+            0,
+            1,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-05.webp",
@@ -206,21 +272,39 @@ const CONTENT = {
           "width": 2560,
           "height": 1438,
           "caption": "场景资产",
-          "alt": "Hemlock and Fire · 场景资产"
+          "alt": "Hemlock and Fire · 场景资产",
+          "displayCrop": [
+            0,
+            0,
+            0,
+            1
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-07.webp",
           "width": 2560,
           "height": 1438,
           "caption": "战斗特效",
-          "alt": "Hemlock and Fire · 战斗特效"
+          "alt": "Hemlock and Fire · 战斗特效",
+          "displayCrop": [
+            0,
+            0,
+            0,
+            2
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project2/section-08.webp",
           "width": 2560,
           "height": 1407,
           "caption": "开发与迭代",
-          "alt": "Hemlock and Fire · 开发与迭代"
+          "alt": "Hemlock and Fire · 开发与迭代",
+          "displayCrop": [
+            0,
+            0,
+            0,
+            2
+          ]
         }
       ],
       "externalUrl": "https://kilimill.itch.io/hemlock-and-fire",
@@ -284,21 +368,39 @@ const CONTENT = {
           "width": 2560,
           "height": 1442,
           "caption": "项目封面",
-          "alt": "DATA FURNACE · 项目封面"
+          "alt": "DATA FURNACE · 项目封面",
+          "displayCrop": [
+            1,
+            0,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project3/section-02.webp",
           "width": 2560,
           "height": 1476,
           "caption": "场景概述",
-          "alt": "DATA FURNACE · 场景概述"
+          "alt": "DATA FURNACE · 场景概述",
+          "displayCrop": [
+            62,
+            0,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project3/section-03.webp",
           "width": 2560,
           "height": 1476,
           "caption": "关卡迭代",
-          "alt": "DATA FURNACE · 关卡迭代"
+          "alt": "DATA FURNACE · 关卡迭代",
+          "displayCrop": [
+            0,
+            0,
+            20,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project3/section-04.webp",
@@ -394,7 +496,13 @@ const CONTENT = {
           "width": 2560,
           "height": 1440,
           "caption": "联邦少将",
-          "alt": "DYING SUNS · 联邦少将"
+          "alt": "DYING SUNS · 联邦少将",
+          "displayCrop": [
+            0,
+            2,
+            0,
+            0
+          ]
         },
         {
           "src": "assets/portfolio/20261028/project4/section-03.webp",
