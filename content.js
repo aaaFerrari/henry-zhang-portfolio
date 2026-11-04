@@ -312,7 +312,17 @@ const CONTENT = {
         "src": "assets/pdf/project2.pdf",
         "filename": "Henry-Zhang-PROJECT2.pdf"
       },
-      "revision": "20261028"
+      "revision": "20261028",
+      "heroDisplayCrop": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "heroSize": [
+        2560,
+        1438
+      ]
     },
     {
       "slug": "data-furnace",
