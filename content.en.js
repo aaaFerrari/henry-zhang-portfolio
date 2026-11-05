@@ -207,6 +207,12 @@ const CONTENT_EN = {
       "hero": "assets/portfolio/20261028/project2/hero.webp",
       "heroAlt": "Hemlock and Fire · Narrative Action RPG",
       "featured": false,
+      "video": {
+        "src": "assets/videos/hemlock-and-fire-gameplay.mp4",
+        "title": "Gameplay Demonstration",
+        "caption": "Hemlock and Fire · Gameplay Demonstration",
+        "poster": "assets/videos/hemlock-and-fire-poster.jpg"
+      },
       "images": [
         {
           "src": "assets/portfolio/20261028/project2/section-01.webp",
@@ -1926,6 +1932,12 @@ const CONTENT_EN = {
     ],
     "retrospective": "This 48-hour collaboration required us to balance scope and art production against the deadline. With another week, I would first complete the story and its supporting environments and backgrounds, then add enemy AI to bring previously cut content back into the experience.",
     "credits": [],
+    "video": {
+      "src": "assets/videos/cypher-gameplay.mp4",
+      "title": "Gameplay Demonstration",
+      "caption": "CYPHER · Global Game Jam 2026 Gameplay",
+      "poster": "assets/videos/cypher-poster.jpg"
+    },
     "videoUrl": "https://www.bilibili.com/video/BV1z5FPzbEif",
     "images": [
       {

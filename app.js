@@ -101,18 +101,28 @@ function updateViewer() {
 function moveViewer(delta){if(viewerIndex+delta>=0&&viewerIndex+delta<currentImages.length){viewerIndex+=delta;updateViewer();}}
 main.addEventListener('click',event=>{
   const videoToggle=event.target.closest('[data-video-toggle]');
-  if(videoToggle){const video=videoToggle.closest('.project-video').querySelector('video');if(video.paused){video.play().then(()=>video.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'})).catch(()=>{});}else video.pause();return;}
+  if(videoToggle){
+    const video=videoToggle.closest('.project-video').querySelector('video');
+    if(video.paused||video.ended){
+      if(video.ended)video.currentTime=0;
+      video.play().then(()=>{syncVideoToggle(video);video.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});}).catch(()=>syncVideoToggle(video));
+    }else{video.pause();syncVideoToggle(video,false);}
+    return;
+  }
 
   const practice=event.target.closest('[data-practice]');
   if(practice){openPractice(practice.dataset.practice,practice.dataset.practiceId,practice);return;}
   const opener=event.target.closest('[data-image]');
   if(opener){const routeNow=location.hash;if(routeNow.startsWith('#/drawings'))currentImages=drawingsForTrack().map(item=>practiceImage('drawings',item));lastOpener=opener;viewerIndex=Number(opener.dataset.image);updateViewer();dialog.showModal();document.getElementById('viewer-close').focus();}
 });
-for(const eventName of ['play','pause','ended'])main.addEventListener(eventName,event=>{
- const video=event.target;if(video.tagName!=='VIDEO')return;
+function syncVideoToggle(video,playing=!video.paused&&!video.ended){
  const button=video.closest('.project-video')?.querySelector('[data-video-toggle]');if(!button)return;
- const playing=!video.paused&&!video.ended;button.setAttribute('aria-pressed',String(playing));
+ button.setAttribute('aria-pressed',String(playing));
  button.innerHTML='<span aria-hidden="true">'+(playing?'Ⅱ':'▶')+'</span> '+(playing?t('暂停视频','Pause video'):t('播放视频','Play video'));
+}
+for(const eventName of ['play','playing','pause','ended','emptied','error'])main.addEventListener(eventName,event=>{
+ const video=event.target;if(video.tagName!=='VIDEO')return;
+ syncVideoToggle(video,['pause','ended','emptied','error'].includes(event.type)?false:undefined);
 },true);
 document.getElementById('viewer-close').addEventListener('click',()=>dialog.close());
 document.getElementById('viewer-prev').addEventListener('click',()=>moveViewer(-1));

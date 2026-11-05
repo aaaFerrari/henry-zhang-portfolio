@@ -207,6 +207,12 @@ const CONTENT = {
       "hero": "assets/portfolio/20261028/project2/hero.webp",
       "heroAlt": "Hemlock and Fire · 叙事动作 RPG",
       "featured": false,
+      "video": {
+        "src": "assets/videos/hemlock-and-fire-gameplay.mp4",
+        "title": "游戏实机演示",
+        "caption": "Hemlock and Fire · 游戏实机演示",
+        "poster": "assets/videos/hemlock-and-fire-poster.jpg"
+      },
       "images": [
         {
           "src": "assets/portfolio/20261028/project2/section-01.webp",
@@ -1926,6 +1932,12 @@ const CONTENT = {
     ],
     "retrospective": "这次 48 小时协作中，内容范围与美术制作方案都需要围绕截止时间进行取舍。若多给一周，我会优先补全剧情，并完成相关场景搭建与背景制作；其次加入敌人 AI，让原先被删减的内容逐步回到游戏体验中。",
     "credits": [],
+    "video": {
+      "src": "assets/videos/cypher-gameplay.mp4",
+      "title": "游戏实机演示",
+      "caption": "CYPHER · Global Game Jam 2026 游戏演示",
+      "poster": "assets/videos/cypher-poster.jpg"
+    },
     "videoUrl": "https://www.bilibili.com/video/BV1z5FPzbEif",
     "images": [
       {
