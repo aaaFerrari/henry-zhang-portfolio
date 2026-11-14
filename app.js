@@ -58,16 +58,16 @@ function updateReadingNavigation(route,isDetail,slug){
  const map={
   home:{next:'#/drawings',nextLabel:t('01 绘画','01 Drawing')},
   drawings:{back:'#/',backLabel:t('返回自我介绍','Back to Introduction'),next:'#/models',nextLabel:t('02 建模练习','02 3D Studies')},
-  models:{back:isDetail?'#/models':'#/drawings',backLabel:isDetail?t('返回建模练习','Back to 3D Studies'):t('返回绘画','Back to Drawing'),next:'#/portfolio',nextLabel:t('03 作品集','03 Portfolio')},
-  portfolio:{back:isDetail?'#/portfolio':'#/models',backLabel:isDetail?t('返回作品集','Back to Portfolio'):t('返回建模练习','Back to 3D Studies'),next:'#/collaboration',nextLabel:t('04 合作','04 Collaboration')},
-  collaboration:{back:'#/portfolio',backLabel:t('返回作品集','Back to Portfolio'),next:'#/',nextLabel:t('自我介绍','Introduction')}
+  models:{back:isDetail?'#/models':'#/drawings',backLabel:isDetail?t('返回建模练习','Back to 3D Studies'):t('返回绘画','Back to Drawing'),next:'#/portfolio',nextLabel:t('03 作品集','03 Project')},
+  portfolio:{back:isDetail?'#/portfolio':'#/models',backLabel:isDetail?t('返回作品集','Back to Project'):t('返回建模练习','Back to 3D Studies'),next:'#/collaboration',nextLabel:t('04 合作','04 Team Work')},
+  collaboration:{back:'#/portfolio',backLabel:t('返回作品集','Back to Project'),next:'#/',nextLabel:t('自我介绍','Introduction')}
  };
  let config={...(map[route]||{back:'#/',backLabel:t('返回自我介绍','Back to Introduction'),next:'#/drawings',nextLabel:t('01 绘画','01 Drawing')})};
  let action=t('下一板块','Next section');
  if(route==='portfolio'&&isDetail){
   const list=activeContent().portfolio,index=list.findIndex(item=>item.slug===slug);
   if(index>=0&&index<list.length-1){const next=list[index+1];config.next='#/portfolio/'+next.slug;config.nextLabel=t('项目 '+num(index+2),'Project '+num(index+2));action=t('下一个项目','Next project');}
-  else if(index===list.length-1){config.next='#/portfolio';config.nextLabel=t('03 作品集','03 Portfolio');action=t('返回作品集','View all projects');}
+  else if(index===list.length-1){config.next='#/portfolio';config.nextLabel=t('03 作品集','03 Project');action=t('返回作品集','View all projects');}
  }
  const el=document.getElementById('reading-navigation');
  el.innerHTML=(config.back?'<a class="reading-back" href="'+esc(config.back)+'"><span aria-hidden="true">←</span> '+esc(config.backLabel)+'</a>':'<span class="reading-back-placeholder" aria-hidden="true"></span>')+'<a class="reading-next" href="'+esc(config.next)+'"><span>'+action+'</span> '+esc(config.nextLabel)+' <span aria-hidden="true">→</span></a>';
