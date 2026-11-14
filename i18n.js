@@ -34,3 +34,9 @@ function setLanguage(language){
  const scrollY=window.scrollY;
  currentLanguage=language;
  try{localStorage.setItem('henry-portfolio-language',language);}catch(_){}
+ updateStaticLanguage();
+ if(typeof render==='function')render(true,true);
+ window.scrollTo({top:scrollY,behavior:'instant'});
+}
+document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>setLanguage(button.dataset.language)));
+updateStaticLanguage();
