@@ -48,8 +48,9 @@ function projectYouTubeVideo(video,id){
  return `<section class="project-video project-video-lead" aria-labelledby="${id}">
   <div class="gallery-heading">
    <div><p class="eyebrow">${t('项目视频','PROJECT FILM')}</p><h2 id="${id}">${esc(video.title)}</h2></div>
-   <a class="button-primary" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${t('在 YouTube 观看','Watch on YouTube')} ${arrow}</a>
+   <a class="button-primary" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${t('在 YouTube 高清观看','Watch in HD on YouTube')} ${arrow}</a>
   </div>
+  <p class="video-quality-note">${t('站内高清播放：在视频播放器中选择「设置 → 画质 → 1080p」。','For HD playback here, choose Settings → Quality → 1080p in the player.')}</p>
   <iframe class="project-video-embed" src="${esc(embed)}" title="${esc(video.caption)}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
   <div class="video-caption"><p>${esc(video.caption)}</p></div>
  </section>`;

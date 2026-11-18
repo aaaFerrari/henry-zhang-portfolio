@@ -12,3 +12,4 @@
 
 .project-video{padding-bottom:8px}.project-video video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#000;border:1px solid var(--line);color:var(--ink)}.video-caption{display:flex;justify-content:space-between;align-items:baseline;gap:20px;font-size:11px;color:var(--muted);line-height:1.9;padding:13px 0 21px}.video-caption a{color:var(--accent);white-space:nowrap;border-bottom:1px solid var(--line);padding:3px 0}.video-caption a:hover{border-color:var(--accent)}@media(max-width:800px){.project-video{padding-bottom:0}.video-caption{font-size:10px;gap:15px;padding:10px 0 15px}.project-video .gallery-heading p{max-width:140px}}
 .project-video-embed{display:block;width:100%;aspect-ratio:16/9;background:#000;border:1px solid var(--line)}
+.video-quality-note{margin:0 0 12px;color:var(--ink);font-size:13px;line-height:1.5}
