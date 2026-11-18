@@ -213,6 +213,11 @@ const CONTENT = {
         "caption": "Hemlock and Fire · 游戏实机演示",
         "poster": "assets/videos/hemlock-and-fire-poster.jpg"
       },
+      "additionalVideo": {
+        "youtubeId": "PTRbTjlQvSs",
+        "title": "游戏演示介绍视频",
+        "caption": "Hemlock and Fire · 游戏演示介绍"
+      },
       "images": [
         {
           "src": "assets/portfolio/20261028/project2/section-01.webp",
@@ -441,10 +446,9 @@ const CONTENT = {
         }
       ],
       "video": {
-        "src": "assets/videos/data-furnace-walkthrough.mp4",
+        "youtubeId": "Yi2kmF4ux_U",
         "title": "环境漫游",
-        "caption": "DATA FURNACE · 项目环境漫游",
-        "poster": "assets/portfolio/20261028/project3/hero.webp"
+        "caption": "DATA FURNACE · 项目环境漫游"
       },
       "pdf": {
         "src": "assets/pdf/project3.pdf",

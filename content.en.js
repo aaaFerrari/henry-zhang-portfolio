@@ -213,6 +213,11 @@ const CONTENT_EN = {
         "caption": "Hemlock and Fire · Gameplay Demonstration",
         "poster": "assets/videos/hemlock-and-fire-poster.jpg"
       },
+      "additionalVideo": {
+        "youtubeId": "PTRbTjlQvSs",
+        "title": "Game Demo Introduction Video",
+        "caption": "Hemlock and Fire · Game Demo Introduction"
+      },
       "images": [
         {
           "src": "assets/portfolio/20261028/project2/section-01.webp",
@@ -441,10 +446,9 @@ const CONTENT_EN = {
         }
       ],
       "video": {
-        "src": "assets/videos/data-furnace-walkthrough.mp4",
+        "youtubeId": "Yi2kmF4ux_U",
         "title": "Environment Walkthrough",
-        "caption": "DATA FURNACE · Environment Walkthrough",
-        "poster": "assets/portfolio/20261028/project3/hero.webp"
+        "caption": "DATA FURNACE · Environment Walkthrough"
       },
       "pdf": {
         "src": "assets/pdf/project3.pdf",
